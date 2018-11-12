@@ -3,8 +3,8 @@ body {
     padding: 30px 250px;
     margin: 0;
     background-color: #959698;
-    background-image: url('img/table3.jpg');
-    background-repeat: no-repeat;
+    background-image: url('img/body_background2.png');
+    /* background-repeat: no-repeat; */
     /* background-size: 30% 100%; */
 }
 
