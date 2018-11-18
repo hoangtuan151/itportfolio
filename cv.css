@@ -43,6 +43,10 @@ aside > section#last_update {
     font-style: italic;
 }
 
+aside > section#about {
+    text-align: justify;
+}
+
 /* ---------------------- */
 /* Style for Main section */
 /* ---------------------- */
@@ -67,13 +71,13 @@ aside > section > header {
     font-size: 120%;
 }
 
-main > section > header {
+/* main > section > header {
     border-bottom: solid 2px;
-}
+} */
 
 main > section {
     margin-left: 50px;
-    margin-top: 20px;
+    margin-top: 50px;
 }
 
 main a:link,
@@ -249,16 +253,6 @@ div.exp_desc {
 /* ----------------------- */
 /* Style for Skill section */
 /* ----------------------- */
-
-section#skills header {
-    color: #75b6b8;
-    font-weight: bold;
-    /* text-transform: uppercase; */
-}
-
-section#skills > section {
-    padding-left: 20px;
-}
 
 div#tech_skills {
     /* border: red solid 1px; */
