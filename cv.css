@@ -136,7 +136,7 @@ div#name_area > p#desc {
     color: #f7ffff;
     margin: 0;
     padding-left: 30px;
-    text-transform: capitalize;
+    /* text-transform: capitalize; */
 }
 
 /* ------------------------- */
