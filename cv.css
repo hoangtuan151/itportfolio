@@ -47,6 +47,20 @@ aside > section#about {
     text-align: justify;
 }
 
+aside a:link,
+aside a:visited,
+aside a:active,
+aside a:focus {
+    text-decoration: none;
+    color: #f7ffff;
+    outline: none;
+}
+
+aside a:hover {
+    color: #f7ffff;
+    opacity: 0.5;
+}
+
 /* ---------------------- */
 /* Style for Main section */
 /* ---------------------- */
