@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>IT Pro5 - My CV</title>
+    <title>IT Pro5 - CV Page</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="cv.css"/>
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
@@ -328,7 +328,7 @@
                         </ul>
                         <i>Familiar:</i>
                         <ul>
-                            <li>Lang: Java, JSP, C#</li>                                      
+                            <li>Lang: Java, JSP, C#, NodeJS</li>                                      
                             <li>Framework: Apache Click, Spring</li>
                         </ul>
                     </div>
@@ -411,7 +411,7 @@
                         </ul>
                     </div>
                     <div class="skill_group">
-                        <h4>Cloud Computing Service</h4>
+                        <h4>Cloud Computing</h4>
                         <i>Proficient:</i>
                         <ul>
                             <li>Google Compute Engine</li>
@@ -427,6 +427,17 @@
                             <li>AWS Fargate</li>
                         </ul>
                     </div>
+                    <div class="skill_group">
+                        <h4>Serverless Computing</h4>
+                        <i>Familiar:</i>
+                        <ul>
+                            <li>Firebase Authentication</li>
+                            <li>Firebase Cloud Functions</li>
+                            <li>Firebase Cloud Firestore</li>
+                            <li>ZEIT Now</li>
+                            <li>MongoDB Atlas</li>
+                        </ul>
+                    </div>
                 </div>
             </section>
         </main>
@@ -434,14 +445,13 @@
 
     <!-- js script here -->
     <script>
-        (function(){
+        setTimeout(function() {
             var aside_element = document.getElementsByTagName('aside')[0];
             var main_element = document.getElementsByTagName('main')[0];
             var max_height = (aside_element.clientHeight > main_element.clientHeight) ? aside_element.clientHeight : main_element.clientHeight;
-            
             aside_element.style.height = max_height + 'px';
             main_element.style.height = max_height + 'px';
-        })();
+        }, 500)
     </script>
 </body>
 </html>
