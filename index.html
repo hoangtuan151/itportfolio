@@ -7,9 +7,9 @@
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <link rel="stylesheet" href="main.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Allerta+Stencil">
-    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Tangerine">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine">
     <title>IT Pro5 - Portfolio Page</title>
 </head>
 <body>
@@ -93,9 +93,13 @@
             <div class="star-line">
                 <i class="material-icons">start</i>
             </div>
-            <div class="w3-large w3-content" style="text-align: justify;" w3-include-html="html/about_me.html">
+            <div class="w3-large w3-content w3-margin-bottom"
+                    style="text-align: justify;"
+                    w3-include-html="html/about_me.html">
             </div>
-            <button class="w3-button w3-teal w3-border w3-border-white w3-round-large w3-padding-large w3-ripple w3-margin-top"
+            <button class="w3-button w3-teal w3-border
+                            w3-border-white w3-round-large
+                            w3-padding-large w3-ripple w3-margin-top"
                     onclick="window.open('cv.html', '_blank')">
                 <b>View my CV</b>
             </button>
@@ -108,43 +112,10 @@
             </div>
 
             <div class="w3-row-padding w3-content">
-                <div class="w3-col l3 m6 s12">
-                    <div class="w3-card w3-margin-top">
-                        <img src="img/project/cabin.png"/>
-                        <div class="w3-container">
-                            <p>
-                                <b>IT Pro5</b><br/>
-                                <em>(From Oct 2018)</em>
-                            </p>
-                        </div>
-                    </div>
-                </div>
-
+                <div class="w3-col l3 m6 s12" w3-include-html="html/prj_itpro5.html"></div>
                 <div class="w3-col l3 m6 s12" w3-include-html="html/prj_maylocnuoc.html"></div>
-
-                <div class="w3-col l3 m6 s12">
-                    <div class="w3-card w3-margin-top">
-                        <img src="img/project/cabin.png"/>
-                        <div class="w3-container">
-                            <p>
-                                <b>Video Magnification</b><br/>
-                                <em>(From Jan 2018)</em>
-                            </p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="w3-col l3 m6 s12">
-                    <div class="w3-card w3-margin-top">
-                        <img src="img/project/cabin.png"/>
-                        <div class="w3-container">
-                            <p>
-                                <b>EZ Infra</b><br/>
-                                <em>(From Oct 2017)</em>
-                            </p>
-                        </div>
-                    </div>
-                </div>
+                <div class="w3-col l3 m6 s12" w3-include-html="html/prj_video_magnification.html"></div>
+                <div class="w3-col l3 m6 s12" w3-include-html="html/prj_ezinfra.html"></div>
             </div>
         </section>
         
@@ -170,67 +141,12 @@
 
             <!-- row 1 -->
             <div class="w3-row-padding w3-content">
-                <div class="w3-col l4 m6">
-                    <div class="w3-card w3-margin-top">
-                        <img src="img/project/cabin.png"/>
-                        <div class="w3-container">
-                            <p>
-                                <b>Software Architecture</b><br/>
-                                <em>(From ?)</em>
-                            </p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="w3-col l4 m6">
-                    <div class="w3-card w3-margin-top">
-                        <img src="img/project/cabin.png"/>
-                        <div class="w3-container">
-                            <p>
-                                <b>Azure AI Bootcamp</b><br/>
-                                <em>(From Sep 2018)</em>
-                            </p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="w3-col l4 m6">
-                    <div class="w3-card w3-margin-top">
-                        <img src="img/project/cabin.png"/>
-                        <div class="w3-container">
-                            <p>
-                                <b>Web Design</b><br/>
-                                <em>(From ?)</em>
-                            </p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="w3-col l4 m6">
-                    <div class="w3-card w3-margin-top">
-                        <img src="img/project/cabin.png"/>
-                        <div class="w3-container">
-                            <p>
-                                <b>Mobile UX Design</b><br/>
-                                <em>(From ?)</em>
-                            </p>
-                        </div>
-                    </div>
-                </div>
-
+                <div class="w3-col l4 m6" w3-include-html="html/cse_azure_ai.html"></div>
+                <div class="w3-col l4 m6" w3-include-html="html/cse_software_arch.html"></div>
+                <div class="w3-col l4 m6" w3-include-html="html/cse_web_design.html"></div>
+                <div class="w3-col l4 m6" w3-include-html="html/cse_mobi_ux_design.html"></div>
+                <div class="w3-col l4 m6" w3-include-html="html/cse_scrum.html"></div>
                 <div class="w3-col l4 m6" w3-include-html="html/cse_learninghowtolearn.html"></div>
-
-                <div class="w3-col l4 m6">
-                    <div class="w3-card w3-margin-top">
-                        <img src="img/project/cabin.png"/>
-                        <div class="w3-container">
-                            <p>
-                                <b>Pragmatic Scrum</b><br/>
-                                <em>(From ?)</em>
-                            </p>
-                        </div>
-                    </div>
-                </div>
             </div>
         </section>
 
@@ -288,7 +204,7 @@
     </main>
 
     <footer class="w3-container w3-center w3-black">
-        <p>Copyright &copy; 2018 - IT Pro5</p>
+        <p>Copyright &copy; 2018 - Power by <a href="http://google.com" target="_blank">IT Pro5</a></p>
     </footer>
 
     <!-- js script here -->
