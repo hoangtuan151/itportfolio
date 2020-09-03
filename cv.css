@@ -1,6 +1,6 @@
 body {
     /* border: red dotted 1px; */
-    padding: 30px 250px;
+    padding: 30px 50px;
     margin: 0;
     background-color: #959698;
     background-image: url('img/body_background2.png');
@@ -74,7 +74,7 @@ main {
     /* height: 1200px; */
 }
 
-main > section > header, 
+main > section > header,
 aside > section > header {
     font-family: Georgia, Times, serif;
     color: #75b6b8;
