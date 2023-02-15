@@ -27,7 +27,7 @@ aside {
     background-color: #3a3b42;
 }
 
-aside > section {
+aside>section {
     /* border: red solid 1px; */
     width: 290px;
     margin-left: 30px;
@@ -35,7 +35,7 @@ aside > section {
     color: #f7ffff;
 }
 
-aside > section#last_update {
+aside>section#last_update {
     width: 350px;
     margin: 0;
     /* border: red solid 1px; */
@@ -43,7 +43,7 @@ aside > section#last_update {
     font-style: italic;
 }
 
-aside > section#about {
+aside>section#about {
     text-align: justify;
 }
 
@@ -74,8 +74,8 @@ main {
     /* height: 1200px; */
 }
 
-main > section > header,
-aside > section > header {
+main>section>header,
+aside>section>header {
     font-family: Georgia, Times, serif;
     color: #75b6b8;
     text-transform: uppercase;
@@ -89,9 +89,9 @@ aside > section > header {
     border-bottom: solid 2px;
 } */
 
-main > section {
-    margin-left: 50px;
-    margin-top: 50px;
+main>section {
+    margin-left: 30px;
+    margin-top: 30px;
 }
 
 main a:link,
@@ -111,7 +111,7 @@ div#avatar {
     position: relative;
 }
 
-div#avatar > img {
+div#avatar>img {
     width: 350px;
     display: block;
 }
@@ -127,7 +127,7 @@ div#name_area {
     width: 350px;
 }
 
-div#name_area > p#name {
+div#name_area>p#name {
     font-family: Georgia, Times, serif;
     /* text-align: center; */
     font-size: 160%;
@@ -138,12 +138,12 @@ div#name_area > p#name {
     word-spacing: 0.2em;
 }
 
-div#name_area > p#name > span {
+div#name_area>p#name>span {
     font-weight: bold;
     font-size: 120%;
 }
 
-div#name_area > p#desc {
+div#name_area>p#desc {
     font-family: Georgia, Times, serif;
     /* text-align: center; */
     font-size: 120%;
@@ -161,11 +161,11 @@ div.contact_list {
     margin-top: 10px;
 }
 
-div.contact_list > i {
+div.contact_list>i {
     vertical-align: middle;
 }
 
-div.contact_list > span {
+div.contact_list>span {
     float: right;
     /* line-height = google icon font-size */
     line-height: 24px;
@@ -189,12 +189,12 @@ div.hobby_item {
     margin-bottom: 10px;
 }
 
-div.hobby_item > img {
+div.hobby_item>img {
     width: 48px;
     height: 48px;
 }
 
-div.hobby_item > p {
+div.hobby_item>p {
     margin: 0;
     text-transform: uppercase;
     font-size: 70%;
@@ -212,31 +212,31 @@ ul.social_list {
     margin-top: 10px;
 }
 
-ul.social_list > li {
+ul.social_list>li {
     text-align: center;
     margin-bottom: 20px;
 }
 
-ul.social_list > li img {
+ul.social_list>li img {
     width: 48px;
     height: 48px;
 }
 
-ul.social_list > li p {
+ul.social_list>li p {
     margin: 0;
 }
 
-ul.social_list > li > a:link,
-ul.social_list > li > a:visited,
-ul.social_list > li > a:active,
-ul.social_list > li > a:focus {
+ul.social_list>li>a:link,
+ul.social_list>li>a:visited,
+ul.social_list>li>a:active,
+ul.social_list>li>a:focus {
     text-decoration: none;
     /* color: #1fd0b6; */
     color: #f7ffff;
     outline: none;
 }
 
-ul.social_list > li > a:hover {
+ul.social_list>li>a:hover {
     color: #f7ffff;
     opacity: 0.5;
 }
@@ -255,13 +255,36 @@ div.exp_item p {
 
 div.exp_time {
     float: left;
-    width: 165px;
+    width: 170px;
 }
 
 div.exp_desc {
     float: left;
     margin-left: 50px;
+    line-height: 24px;
     width: 700px;
+}
+
+
+div#personal_projects {
+    /* border: red solid 1px; */
+    overflow: auto;
+}
+
+div.project_group {
+    /* border: blue solid 1px; */
+    float: left;
+    margin: 6px;
+    width: 450px;
+}
+
+div.project_group>h4 {
+    text-align: center;
+    /* color: #f7ffff; */
+    background-color: #75b6b8;
+    opacity: 0.5;
+    margin: 16px 0;
+    padding: 5px 0;
 }
 
 /* ----------------------- */
@@ -280,7 +303,7 @@ div.skill_group {
     width: 300px;
 }
 
-div.skill_group > h4 {
+div.skill_group>h4 {
     text-align: center;
     /* color: #f7ffff; */
     background-color: #75b6b8;
